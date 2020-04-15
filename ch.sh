@@ -4,7 +4,7 @@ echo Checking for Figlet: $PKG_OK
 if [ "" == "$PKG_OK" ]; 
 then
   echo "No cool figlet found I am installing for you!!!"
-  sudo apt-get --force-yes --yes install the.package.name
+  sudo apt-get --force-yes --yes install figlet
   wget ftp://ftp.figlet.org/pub/figlet/fonts/contributed/doh.flf /usr/share/figlet
 fi
 PKG_OK=$(dpkg-query -W --showformat='${Status}\n' lolcat|grep "install ok installed")
