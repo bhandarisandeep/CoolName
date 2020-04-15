@@ -23,10 +23,9 @@ then
 fi
 if [ "" == "$PKG2_OK" ]; 
 then
-  {echo "No cool Ruby found I am installing for you!!!"
+  echo "No cool Ruby found I am installing for you!!!"
   sudo apt-get install ruby
   echo "Ruby is installed!!!"
-  }
 fi
 if [ "" == "$PKG1_OK" ]; 
 then
