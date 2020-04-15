@@ -1,6 +1,8 @@
 # CoolName
 Print Cool ascii characters in Linux cli using figlet and some colours borrowed from lolcat.
-<br><br>
+<br>
+Having some issues in all CLI based systems... Wokring on it...xD
+<br>
 First give executable permissions to "coolname.sh" by <b>chmod +755 coolname.sh</b><br> 
 Run the <b>coolname.sh</b> as root. 
 <br>
