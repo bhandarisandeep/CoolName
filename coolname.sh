@@ -10,7 +10,7 @@ if [ "" == "$PKG_OK" ];
 then
   echo "No cool figlet found I am installing for you!!!"
   sudo apt-get --force-yes --yes install figlet
-  wget ftp://ftp.figlet.org/pub/figlet/fonts/contributed/doh.flf /usr/share/figlet
+  wget ftp://ftp.figlet.org/pub/figlet/fonts/contributed/doh.flf -P /usr/share/figlet/
 fi
 if [ "" == "$PKG2_OK" ]; 
 then
@@ -32,4 +32,3 @@ figlet -t "!!! Today we gonna print some cool name !!!"
 read -p 'Enter your Cool Name:' name
 
 figlet -tc -f doh $name | lolcat
-fi
