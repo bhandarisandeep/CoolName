@@ -1,2 +1,3 @@
 # CoolName
-Print Cool Name In Linux Shell in DOH font
+Print Cool ascii characters in Linux cli using figlet and some colours borrowed from lolcat.
+![Some demo](images/1.png)
