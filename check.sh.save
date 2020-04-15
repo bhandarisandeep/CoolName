@@ -1,8 +1,0 @@
-#!/bin/bash
-a=1
-b=1
-then
- echo hello
-else
- echo ollhe
-fi
