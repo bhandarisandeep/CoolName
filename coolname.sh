@@ -11,18 +11,22 @@ if [ "" == "$PKG_OK" ];
 then
   echo "No cool figlet found I am installing for you!!!"
   sudo apt-get --force-yes --yes install figlet
- if [ "" == "$checkdoh" ];
- then
+  echo "Figlet installed!!!"
+fi
+if [ "" == "$checkdoh" ];
+then
   {
-  echo "No dog font found I am adding for you!!!"
+  echo "No doh font found I am adding for you!!!"
   wget ftp://ftp.figlet.org/pub/figlet/fonts/contributed/doh.flf -P /usr/share/figlet/
+  echo "DOH installed!!!"
   }
- fi
-fi  
+fi
 if [ "" == "$PKG2_OK" ]; 
 then
-  echo "No cool Ruby found I am installing for you!!!"
+  {echo "No cool Ruby found I am installing for you!!!"
   sudo apt-get install ruby
+  echo "Ruby is installed!!!"
+  }
 fi
 if [ "" == "$PKG1_OK" ]; 
 then
@@ -31,6 +35,7 @@ then
   {
   echo "No cool lolcat found I am installing for you!!!"
   sudo gem install lolcat
+  echo "lolcat installed!!!"
   }
  fi
 fi
