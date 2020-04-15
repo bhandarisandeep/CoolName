@@ -1,3 +1,6 @@
 # CoolName
 Print Cool ascii characters in Linux cli using figlet and some colours borrowed from lolcat.
-![Some demo](images/1.png)
+<br><br>
+![Some demo](2.png)
+<br>
+![Output](3.png)
